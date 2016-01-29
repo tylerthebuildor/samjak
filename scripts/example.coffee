@@ -10,6 +10,9 @@
 
 module.exports = (robot) ->
 
+  robot.hear /english/i, (res) ->
+    res.send "ENGLISH MOTHER FUCKER DO YOU SPEAK IT!"
+
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
