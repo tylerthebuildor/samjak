@@ -13,6 +13,9 @@ module.exports = (robot) ->
   robot.hear /english/i, (res) ->
     res.send "ENGLISH MOTHER FUCKER DO YOU SPEAK IT!"
 
+  robot.hear /snakes/i, (res) ->
+    res.send "I HAVE HAD IT WITH THESE MOTHERFUCKING SNAKES ON THIS MOTHERFUCKING PLANE!"
+
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
