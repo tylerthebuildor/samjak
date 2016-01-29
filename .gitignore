@@ -2,3 +2,5 @@ node_modules
 .DS_Store*
 .hubot_history
 CONFIG.md
+npm-debug.log
+client_id.json
